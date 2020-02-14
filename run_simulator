@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ ! -f simulator_installed.txt  ]; then 
+ 
+	sudo apt-get update
+	sudo apt-get install xterm
+	sudo apt-get install blender 
+	
+	sudo apt-get install gcc
+
+	git clone https://github.com/memristor/pic-motion-driver
+	git clone https://github.com/memristor/mep2
+		
+	touch simulator_installed.txt
+	fi
+ 
+       	 
+
+	xterm  -e ./run_pic & 
+	cd mep2 
+	xterm -e ./run_blender
