@@ -1,6 +1,8 @@
 # simulator
-bash script for running simulator
+This is a bash script for running Memristor robotics simulator.
 
-Go to home directory and open terminal.
+After you have extracted these enter to its terminal.
 type: chmod u+x run_simulator
 type: chmod u+x run_pic
+
+
