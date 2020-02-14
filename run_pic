@@ -2,7 +2,7 @@
 	
 
 
-	cd ../pic-motion-driver
+	cd pic-motion-driver
 	make sim 
 	./sim can0
 
