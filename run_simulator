@@ -7,6 +7,7 @@ if [ ! -f simulator_installed.txt  ]; then
 	sudo apt-get install blender 
 	
 	sudo apt-get install gcc
+	sudo apt-get install git
 
 	git clone https://github.com/memristor/pic-motion-driver
 	git clone https://github.com/memristor/mep2
