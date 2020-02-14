@@ -4,5 +4,6 @@
 
 	cd pic-motion-driver
 	make sim 
+	make dev dev=can0
 	./sim can0
 
