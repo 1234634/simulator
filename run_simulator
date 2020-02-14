@@ -8,6 +8,7 @@ if [ ! -f simulator_installed.txt  ]; then
 	
 	sudo apt-get install gcc
 	sudo apt-get install git
+	sudo apt-get install make
 
 	git clone https://github.com/memristor/pic-motion-driver
 	git clone https://github.com/memristor/mep2
