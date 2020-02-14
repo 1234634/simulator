@@ -6,7 +6,7 @@ type: chmod u+x run_simulator
 type: chmod u+x run_pic    
 
 To start robot type:
-./run_simulator
+./run_simulator    
 cd mep2
 ROBOT=helloworld ./main.py helloworld sim=1
 
