@@ -18,6 +18,6 @@ if [ ! -f simulator_installed.txt  ]; then
  
        	 
 
-	xterm -e ./run_pic & 
+	sudo xterm -e ./run_pic & 
 	cd mep2 
 	xterm -e ./run_blender &
