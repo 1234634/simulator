@@ -1,11 +1,12 @@
 # simulator
 This is a bash script for running Memristor robotics simulator.
 
-After you have extracted this file enter to it and open terminal.    
+After you have extracted this file to your computer open a terminal in it.    
+These comands you need to type only once:
 type: chmod u+x run_simulator    
 type: chmod u+x run_pic    
 
-To start robot type:
+Every time when starting robot type:
 ./run_simulator    
 cd mep2
 ROBOT=helloworld ./main.py helloworld sim=1
