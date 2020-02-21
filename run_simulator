@@ -3,7 +3,6 @@
 if [ ! -f simulator_installed.txt  ]; then 
  
 	sudo apt-get update
-	sudo apt-get install xterm
 	sudo apt-get install blender 
 	
 	sudo apt-get install gcc
@@ -13,13 +12,14 @@ if [ ! -f simulator_installed.txt  ]; then
 	git clone https://github.com/memristor/pic-motion-driver
 	git clone https://github.com/memristor/mep2
 	
-	sudo chmod u+x run_pic
-		
+	sudo chmod u+x run_pic	
 	touch simulator_installed.txt
-	fi
- 
-       	 
+fi
 
-	sudo xterm -e ./run_pic & 
-	cd mep2 
-	xterm -e ./run_blender &
+#############################
+
+
+sudo x-terminal-emulator -e ./run_pic  
+cd mep2
+x-terminal-emulator -e ./run_blender &
+cd ..

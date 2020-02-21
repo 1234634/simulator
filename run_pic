@@ -1,9 +1,8 @@
 #!/bin/bash 
-	
 
 
-	cd pic-motion-driver
-	make sim 
-	make dev dev=can0
-	./sim can0
+cd pic-motion-driver
+make sim 
+make dev dev=can0
+./sim can0
 
