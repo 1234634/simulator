@@ -1,4 +1,10 @@
 #!/bin/bash
+#title           :run_simulator
+#description     :This script executes commands needed to run the simulator.
+#author		 :Memristor Robotics
+#date            :21.2.2020.
+############################
+
 
 if [ ! -f simulator_installed.txt  ]; then 
  
